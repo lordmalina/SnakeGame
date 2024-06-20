@@ -25,7 +25,7 @@ def main(): # Hlavní funkce programu
     pygame.display.set_caption("Snake vs. GhostSnake 🐍") # Název okna
     pygame.display.set_icon(pygame.image.load("images/ikona.png")) # Ikona okna
     game_state = "main_menu" # Stav hry (main_menu, game, paused_game, game_over)
-    pygame.display.toggle_fullscreen() # Zobrazení okna na celou obrazovku
+    #pygame.display.toggle_fullscreen() # Zobrazení okna na celou obrazovku
 
 
     ### Logo hry
